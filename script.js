@@ -8,6 +8,7 @@ let generatePassword = function () {
   let symbol = String.fromCharCode(Math.floor(Math.random() * 15) + 33); // random special character
   window.alert("Select criteria for password");//OPENING ALERT
   //Criteria for Password
+  // create and if statement that codntions the user to make a valid input. If not valid alert will pop up.
   window.prompt("Enter the length of characters you wish to have. Character length must be ATLEAST 8 and NO MORE than 128.");
   window.confirm("Would you like to have UPPERCASE characters in your password?");
   window.confirm("Would you like to have lowercase characters in your password?");
