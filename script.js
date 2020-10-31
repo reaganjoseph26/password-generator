@@ -14,8 +14,8 @@ let generatePassword = function () {
     window.alert("Please eneter a valid character length.");
     return generatePassword();
     // if characterLenght is not true then continue through function
-  };
-
+  } 
+  // create a for loop that spits out the character that user enters
 
 
   window.confirm("Would you like to have UPPERCASE characters in your password?");
