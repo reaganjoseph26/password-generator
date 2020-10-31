@@ -1,4 +1,23 @@
 // Assignment code here
+let generatePassword = function () {
+  // Variables associated with specific criteria
+  //site for all listed criteria https://net-comber.com/charset.html
+  let upperCase = String.fromCharCode(Math.floor(Math.random() * 26) + 65); // Random uppercase letter
+  let lowerCase = String.fromCharCode(Math.floor(Math.random() * 26) + 97); // Random lowercase letter
+  let number = String.fromCharCode(Math.floor(Math.random() * 10) + 48); // random number
+  let symbol = String.fromCharCode(Math.floor(Math.random() * 15) + 33); // random special character
+  window.alert("Select criteria for password");//OPENING ALERT
+  //Criteria for Password
+  window.prompt("Enter the length of characters you wish to have. Character length must be ATLEAST 8 and NO MORE than 128.");
+  window.confirm("Would you like to have UPPERCASE characters in your password?");
+  window.confirm("Would you like to have lowercase characters in your password?");
+  window.confirm("Would you like to have numbers in your password?");
+  window.confirm("Would you like to have special characters?");
+
+};
+generatePassword()
+console.log(String.fromCharCode(Math.floor(Math.random() * 15) + 33));
+
 
 
 // Get references to the #generate element
@@ -15,3 +34,4 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
