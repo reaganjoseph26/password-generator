@@ -1,5 +1,5 @@
 # password-generator
-Create a random password genertor that ouputs a specific password based on criteria selected
+Create a random password generator that ouputs a specific password based on criteria selected
 ## Creating prompts
 - alerts and prompts questions set up to naviagte through function
 - confirm messages inserted to validate user input
