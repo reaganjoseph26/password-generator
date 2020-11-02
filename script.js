@@ -64,12 +64,27 @@ let generatePassword = function () {
     window.alert("NO SPECIAL CHARACTERS WILL BE IN YOU PASSWORD");
     confirmSpecial = ""
   };
+  //create a loop that loops through
+  for (i = 0; i < characterLengthPrompt; i++) {
+    // criteria for loop throughs
+    //Randomize the output from passArr
+    //myArr does not add on characters will not set += to passArr
+    // stores all input instead of pushin out
+    myArr += passArr[Math.floor(Math.random() * passArr.length)]
+    console.log(myArr)
+
+    
+
+  };
+// we are returning myArr that was set equal to passArr randomizing string
+
+return myArr 
 
 };
 
 
-  return generatePassword()
 
+ 
 
 
 
