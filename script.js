@@ -22,11 +22,23 @@ let generatePassword = function () {
     window.alert("UPPERCASE letters have been selected in your password."); 
     passArr += upperCase;
 
-    //console.log(passArr.push(upperCase[0]))
+    
   }
   else {
     window.alert("NO UPPERCASE CHARACTERS WILL BE IN YOUR PASSWORD.");
     confirmUpper = ""
+  }
+  //if user confirms then lowerCase will be passed into array
+  //if user denies then empty string will be returned
+  var confirmLower = window.confirm("Would you like to have lowercase characters in your password?");
+  if (confirmLower) {
+    window.alert("lowercase characters have been selected in your password.");
+    passArr += lowerCase
+    
+  }
+  else {
+    window.alert("NO LOWERCASE CHARACTERS WILL BE IN YOUR PASSWORD.");
+    confirmLower = ""
   }
 };
 

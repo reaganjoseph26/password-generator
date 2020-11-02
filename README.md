@@ -8,3 +8,6 @@
 - Used String.fromCharCode method get desired input return
 - Used Math.floor and Math.random to randomize the variables and to round down.
 - console.log() each variable to make sure they produce desired results. 
+## Create if else conditions for each criteria
+- If a user confirms they want that criteria, it will be stored into the array
+- If user denies that criteria then the return will be an empty string being not inputting anything into that array
