@@ -52,6 +52,18 @@ let generatePassword = function () {
     window.alert("NO NUMBERS WILL BE IN YOUR PASSWORD");
     confirmNumbers = ""
   }
+  //if user confirms then special symbols will be passed into array
+  //if user denies then empty string will be returned
+  var confirmSpecial = window.confirm("Would you like to have special characters?");
+  if (confirmSpecial) {
+    window.alert("Special characters have been selected");
+    passArr += symbol
+
+  }
+  else {
+    window.alert("NO SPECIAL CHARACTERS WILL BE IN YOU PASSWORD");
+    confirmSpecial = ""
+  };
 
 };
 
