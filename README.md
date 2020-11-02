@@ -20,4 +20,8 @@ Create a random password genertor that ouputs a specific password based on crite
 - Set that to the Second Array created to store all input
 - set myArr += to passArr
 - return myArr
+
+Deployed link : https://reaganjoseph26.github.io/password-generator/
+
+
  
