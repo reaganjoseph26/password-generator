@@ -1,4 +1,5 @@
 # password-generator
+Create a random password genertor that ouputs a specific password based on criteria selected
 ## Creating prompts
 - alerts and prompts questions set up to naviagte through function
 - confirm messages inserted to validate user input
@@ -19,3 +20,4 @@
 - Set that to the Second Array created to store all input
 - set myArr += to passArr
 - return myArr
+ 
