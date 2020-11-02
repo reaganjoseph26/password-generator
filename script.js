@@ -40,6 +40,19 @@ let generatePassword = function () {
     window.alert("NO LOWERCASE CHARACTERS WILL BE IN YOUR PASSWORD.");
     confirmLower = ""
   }
+  //if user confirms then numbers will be passed into array
+  //if user denies then empty string will be returned
+  var confirmNumbers = window.confirm("Would you like to have numbers in your password?");
+  if (confirmNumbers) {
+    window.alert("Numbers have been selected for your password");
+    passArr += number
+    
+  }
+  else {
+    window.alert("NO NUMBERS WILL BE IN YOUR PASSWORD");
+    confirmNumbers = ""
+  }
+
 };
 
 
